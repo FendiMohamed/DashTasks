@@ -1,0 +1,55 @@
+#cards-list{
+ height: 300px;
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+ gap: 20px;
+}
+#progress-card{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 30%;
+ max-height: 200px;
+ background-color: black;
+ min-width: 400px;
+}
+#build{
+display: flex;
+width: 90%;
+justify-content: space-between;
+align-items: center;
+}
+#build p{
+ color: gray;
+ font-size: 24px;
+}
+
+#bar {
+width: 90%;
+}
+#circle {
+ display: flex;
+ justify-content: center;
+ align-items: center; /* Change align-content to align-items */
+ height: fit-content;
+ text-align: center;
+ width: 80px;
+ margin-bottom: 8px;
+ border-radius: 1.5em;
+}
+
+#circle p {
+ color: white;
+ margin: 0; /* Reset the default margin */
+}
+
+.green{
+ background-color: #198754;
+}
+.yellow{
+ background-color: #ffc107;
+}
+

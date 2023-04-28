@@ -1,0 +1,56 @@
+#card-list{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+ gap:2px;
+ background-color: #5E6162;
+ align-content: flex-start;
+}
+.card{
+ margin: 10px;
+ height: 160px;
+ width: 20%;
+ min-width: 200px;
+ border-radius: 4px;
+}
+.red{
+
+ background-color: firebrick;
+}
+.green{
+   background-color: teal;
+}
+.blue{
+   background-color: midnightblue ;
+}
+.purple{
+   background-color: rebeccapurple;
+}
+#first{
+ width: 60%;
+ float: left;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
+}
+#second{
+ width: 40%;
+ float: right;
+ height: 100%;
+ display: flex;
+ justify-items: center;
+ align-items: center;
+}
+#mg{
+ width: 100%;
+ object-fit: cover;
+opacity: 0.03;
+}
+#numb{
+ color: white;
+ font-size:40px;
+}
+#tlt{
+ color: white;
+}

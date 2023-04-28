@@ -1,0 +1,52 @@
+#card-list {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+ gap:2px;
+ background-color: #5E6162;
+ align-content: flex-start;
+}
+#my-card {
+ height: 200px;
+ background-color:black;
+ border-color: #5E6162;
+ border-radius: 3px;
+ display: flex;
+ flex-direction: column;
+ justify-items: center;
+ align-items: center;
+ width: 15%;
+ min-width: 200px;
+}
+#bodycard{
+ margin-top: 30px;
+ display: flex;
+ flex-direction: column;
+ justify-items: center;
+ align-items: center;
+}
+
+#percentage-number {
+ color: red;
+ font-size: 12px;
+ font-weight: 400;
+}
+#percentagee-number {
+ color: green;
+ font-size: 12px;
+ font-weight: 400;
+}
+
+
+#number {
+ color: white;
+ font-size: 24px;
+ font-weight: 600;
+}
+
+
+#card-title {
+ color: gray;
+ margin-bottom: 4px;
+ font-weight: 600;
+}

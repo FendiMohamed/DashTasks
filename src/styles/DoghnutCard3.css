@@ -1,0 +1,43 @@
+#progrescard{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: start;
+ gap: 12px;
+ padding-left: 2%;
+ padding-right: 2%;
+ width: 40%;
+ min-height: 300px;
+ background-color: black;
+ min-width: 400px;
+}
+#buid{
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid gray;
+}
+#buid p{
+ color: gray;
+ font-size: 24px;
+}
+#leftside{
+ display: flex;
+ justify-items: center;
+ align-items: center;
+ margin-bottom: 5px;
+}
+#child{
+ width: 200px;
+ height: 100px;
+}
+#leftside{
+ object-fit: cover;
+}
+#rightside{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}

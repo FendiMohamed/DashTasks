@@ -1,0 +1,62 @@
+#progresss-card{
+ margin-top: 100px;
+ margin-bottom: 50px;
+ width: 50%;
+ min-width: 400px;
+ height: 400px;
+ background-color: black;
+}
+#head{
+ color: gray;
+ font-size: 24px;
+ text-decoration: none;
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+ width: 100%;
+}
+#head:focus {
+ outline: none;
+ border: none;
+}
+#bod{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
+}
+
+#buil{
+width: 90%;
+padding-left: 20px;
+}
+#buil p{
+ font-size: 28px;
+}
+#titl{
+ color:gray;
+ text-align: left;
+ font-size: 24px;
+}
+
+#barr{
+width: 90%;
+}
+#red{
+ color: red;
+}
+#green{
+ color: green;
+}
+#yellow{
+ color: #7C7C12;
+}
+#title{
+ color: gray;
+}
+hr{
+ color: white;
+ width: 100%;
+ margin-top: -6px;
+}
