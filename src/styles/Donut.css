@@ -7,10 +7,10 @@
  align-content: flex-start;
 }
 .cartd{
- min-width: 300px;
+ min-width: 200px;
  margin: 5px;
- width: 23%;
- height: 300px;
+ width: 13%;
+ height: 200px;
  background-color: white;
  display: flex;
  flex-direction: column;

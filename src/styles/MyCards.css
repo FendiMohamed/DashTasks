@@ -1,4 +1,4 @@
-#card-list {
+.card-list {
  display: flex;
  flex-wrap: wrap;
  justify-content: flex-start;
@@ -6,7 +6,7 @@
  background-color: #5E6162;
  align-content: flex-start;
 }
-#my-card {
+.my-card {
  height: 200px;
  background-color:black;
  border-color: #5E6162;
@@ -15,10 +15,10 @@
  flex-direction: column;
  justify-items: center;
  align-items: center;
- width: 15%;
- min-width: 200px;
+ /* width: 15%; */
+ width: 200px;
 }
-#bodycard{
+.bodycard{
  margin-top: 30px;
  display: flex;
  flex-direction: column;
@@ -26,27 +26,27 @@
  align-items: center;
 }
 
-#percentage-number {
+.percentage-number {
  color: red;
  font-size: 12px;
  font-weight: 400;
 }
-#percentagee-number {
+.percentagee-number {
  color: green;
  font-size: 12px;
  font-weight: 400;
 }
 
 
-#number {
+.number {
  color: white;
  font-size: 24px;
  font-weight: 600;
 }
 
 
-#card-title {
+.card-title {
  color: gray;
  margin-bottom: 4px;
- font-weight: 600;
+ font-weight: 600;      
 }

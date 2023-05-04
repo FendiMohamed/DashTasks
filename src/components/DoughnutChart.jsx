@@ -34,7 +34,7 @@ const DoughnutChart = ({title,percent,color}) => {
   }
   
   const options = {
-    cutout: 70,
+    cutout: 50,
     rotation: Math.PI,
     reverse: true,
   };

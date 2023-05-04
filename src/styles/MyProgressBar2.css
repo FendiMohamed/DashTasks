@@ -1,58 +1,61 @@
-#progresss-card{
+.progresss-card{
  margin-top: 100px;
  margin-bottom: 50px;
- width: 50%;
- min-width: 400px;
- height: 400px;
+ width: 40% !important;
+ max-width: 600px !important;
+ min-width: 270px !important;
+ height:fit-content;
  background-color: black;
+ height: 420px !important;
 }
-#head{
+.head{
  color: gray;
- font-size: 24px;
+ font-size: 12px !important;
  text-decoration: none;
  display: flex;
  justify-content:space-between;
  align-items: center;
  width: 100%;
 }
-#head:focus {
+.head:focus {
  outline: none;
  border: none;
 }
-#bod{
+.bod{
  width: 100%;
+ height: fit-content;
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-content: center;
 }
 
-#buil{
+.buil{
 width: 90%;
 padding-left: 20px;
 }
-#buil p{
+.buil p{
  font-size: 28px;
 }
-#titl{
+.titl{
  color:gray;
  text-align: left;
  font-size: 24px;
 }
 
-#barr{
+.barr{
 width: 90%;
 }
-#red{
+.red{
  color: red;
 }
-#green{
+.green{
  color: green;
 }
-#yellow{
+.yellow{
  color: #7C7C12;
 }
-#title{
+.title{
  color: gray;
 }
 hr{

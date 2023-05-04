@@ -1,4 +1,4 @@
-#card-list{
+.card-list{
  display: flex;
  flex-wrap: wrap;
  justify-content: flex-start;
@@ -9,8 +9,8 @@
 .card{
  margin: 10px;
  height: 160px;
- width: 20%;
- min-width: 200px;
+ /* width: 20%; */
+ width: 200px;
  border-radius: 4px;
 }
 .red{
@@ -26,7 +26,7 @@
 .purple{
    background-color: rebeccapurple;
 }
-#first{
+.first{
  width: 60%;
  float: left;
  display: flex;
@@ -34,7 +34,7 @@
  justify-content: center;
  align-content: center;
 }
-#second{
+.second{
  width: 40%;
  float: right;
  height: 100%;
@@ -42,15 +42,15 @@
  justify-items: center;
  align-items: center;
 }
-#mg{
+.mg{
  width: 100%;
  object-fit: cover;
 opacity: 0.03;
 }
-#numb{
+.numb{
  color: white;
  font-size:40px;
 }
-#tlt{
+.tlt{
  color: white;
 }

@@ -15,20 +15,20 @@ const cardds = [
 
 function MyCard2() {
   return (
-   <div id="card-list">
+   <div className="card-list">
 {cardds.map((item,index)=>(
-    <Card className={`${item.color} card`} key={index}>
-    <Card.Body>
-     <div id='first' >
-     <p id="numb">{item.number}</p>
-     <p id="tlt">{item.title}</p>
+    <div className={`${item.color} card`} key={index}>
+    <div>
+     <div className='first' >
+     <p className="numb">{item.number}</p>
+     <p className="tlt">{item.title}</p>
      </div>
-     <div id='second' >
-      <img id='mg' src={item.img}/>
+     <div className='second' >
+      <img className='mg' src={item.img}/>
      </div>
         
-    </Card.Body>
-  </Card>
+    </div>
+  </div>
    ))}
     </div>
   );

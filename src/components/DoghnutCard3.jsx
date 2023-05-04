@@ -7,15 +7,15 @@ import DoughnutChart2 from './DoughnutChart2';
 
 const DoghnutCard3 = ({title,percent,color,val}) => {
   return (
-   <Card id='progrescard'>
-   <div id='buid' >
-    <div id='leftside' >
-      <div id='child'>
+   <Card className='progrescard'>
+   <div className='buid' >
+    <div className='leftside' >
+      <div className='child'>
       {val=='true' ? ( <DoughnutChart2 percent={percent} color={color} />) : ( <img src={alarm} />) }
       </div>
 
     </div>
-    <div id='rightside' >
+    <div className='rightside' >
     {val=='true' ? (<p>{title}</p>) : ( <p>Revenue</p>) }
     {val=='true' ? (<h3>{percent}</h3>) : ( <p>NA</p>) }
     </div>

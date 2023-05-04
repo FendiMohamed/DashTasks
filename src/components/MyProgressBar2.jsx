@@ -19,15 +19,15 @@ const MyAccordion = () => {
 
   return (
     <Accordion>
-      <Card id='progresss-card'>
+      <Card className='progresss-card'>
         <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" onClick={toggleAccordion} eventKey="0" id='head' >
+          <Accordion.Toggle as={Button} variant="link" onClick={toggleAccordion} eventKey="0" className='head' >
           <h2>SERVER STATUS</h2>
           <p>{isOpen ? (<img src={up} />) : (<img src={down} />)}</p>  
           </Accordion.Toggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
-          <Card.Body id='bod'>
+          <Card.Body className='bod'>
           {cards.map((item,index)=>{
          let variant
          if (item.percentage < 50) {
@@ -41,9 +41,9 @@ const MyAccordion = () => {
          }
 
          return(
-          <div id='buil' key={index}>
-          <p id='titl' >{item.title}</p>
-           <ProgressBar id='baar' variant={variant} striped now={item.percentage} label={`${item.percentage}%`}  />
+          <div className='buil' key={index}>
+          <p className='titl' >{item.title}</p>
+           <ProgressBar className='baar' variant={variant} striped now={item.percentage} label={`${item.percentage}%`}  />
            </div>
        )}
          )

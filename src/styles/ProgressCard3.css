@@ -1,4 +1,4 @@
-#cardss-list{
+/* .cardss-list{
  margin-left: 4px;
  height: 200px;
  width: 100%;
@@ -8,8 +8,8 @@
  gap: 20px;
  margin-top: 200px;
  margin-bottom: 400px;
-}
-#progres-card{
+} */
+.progres-card{
  padding-left: 2px;
  display: flex;
  flex-direction: column;
@@ -18,35 +18,37 @@
  width: 30%;
  max-height: 150px;
  background-color: white;
- min-width: 300px;
+ min-width: 270px !important;
+ padding-left: 10px;
 }
-#built{
+.built{
 display: flex;
 width: 90%;
 justify-content: space-between;
-align-items: center;
+align-items: baseline;
+gap: 8px;
 }
-#built p{
+.built p{
  font-size: 28px;
+ background-color: transparent;
 }
-
-#barr{
+.barr{
 width: 90%;
 }
-#red{
+.red{
  color: red;
 }
-#green{
+.green{
  color: green;
 }
-#yellow{
+.yellow{
  color: #7C7C12;
 }
-#title{
+.title{
  color: gray;
 }
 
-#parent{
+.parent{
  width: 100%;
  height: 100%;
  display: flex;

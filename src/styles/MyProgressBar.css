@@ -1,36 +1,36 @@
-#cards-list{
+/* .cards-list{
  height: 300px;
  width: 100%;
  display: flex;
  flex-wrap: wrap;
  justify-content: flex-start;
  gap: 20px;
-}
-#progress-card{
+} */
+.progress-card{
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
- width: 30%;
  max-height: 200px;
- background-color: black;
- min-width: 400px;
+ background-color: white;
+ min-width: 270px !important;
+ width: 30% !important;
 }
-#build{
+.build{
 display: flex;
 width: 90%;
 justify-content: space-between;
 align-items: center;
 }
-#build p{
+.build p{
  color: gray;
  font-size: 24px;
 }
 
-#bar {
+.bar {
 width: 90%;
 }
-#circle {
+.circle {
  display: flex;
  justify-content: center;
  align-items: center; /* Change align-content to align-items */
@@ -41,7 +41,7 @@ width: 90%;
  border-radius: 1.5em;
 }
 
-#circle p {
+.circle p {
  color: white;
  margin: 0; /* Reset the default margin */
 }

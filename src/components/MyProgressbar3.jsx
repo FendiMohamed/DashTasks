@@ -18,12 +18,12 @@ function MyProgressBar3({percentage,title}) {
   }
 
   return (
-    <Card id='progres-card'>
-      <div id='built'>
-      {color=='red' ? <p id='red' >{percentage}%</p> : color=='yellow' ? <p id='yellow' >{percentage}%</p> : <p id='green' >{percentage}%</p>  } 
-        <ProgressBar id='barr' variant={variant} now={percentage} />
+    <Card className='progres-card'>
+      <div className='built'>
+      {color=='red' ? <p className='red' >{percentage}%</p> : color=='yellow' ? <p className='yellow' >{percentage}%</p> : <p className='green' >{percentage}%</p>  } 
+        <ProgressBar className='barr' variant={variant} now={percentage} />
       </div>
-      <p id='title' >{title}</p>
+      <p className='title' >{title}</p>
     </Card>
   )
 }
