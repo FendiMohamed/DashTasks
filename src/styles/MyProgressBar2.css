@@ -1,0 +1,68 @@
+.progresss-card{
+ width: 40% !important;
+ max-width: 600px !important;
+ min-width: 270px !important;
+ background-color: black;
+ height: fit-content !important;
+ max-height: 400px !important;
+ display: relative;
+}
+.head{
+ color: gray;
+ font-size: 12px !important;
+ text-decoration: none;
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+ width: 100%;
+}
+.head p{
+font-size: 16px;
+}
+
+.underline{
+ border-bottom: 1px solid #202a38;
+ width: 100%;
+ position: absolute;
+ left: 0%;
+}
+.bod{
+ width: 100%;
+ height: fit-content;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
+ margin-top: -20px;
+}
+
+.buil{
+width: 90%;
+padding-left: 20px;
+}
+.titl{
+ color:gray;
+ text-align: left;
+ font-size: 16px;
+}
+
+.barr{
+width: 90%;
+}
+.red{
+ color: red;
+}
+.green{
+ color: green;
+}
+.yellow{
+ color: #7C7C12;
+}
+.title{
+ color: gray;
+}
+hr{
+ color: white;
+ width: 100%;
+ margin-top: -6px;
+}
