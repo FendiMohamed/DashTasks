@@ -7,7 +7,8 @@
  align-content: flex-start;
 }
 .my-card {
- height: 180px;
+  padding-bottom: 5%;
+  min-height: 200px;
  background-color:#181a1b;
  border-color: #5E6162;
  border-radius: 3px;
@@ -15,22 +16,23 @@
  flex-direction: column;
  justify-content: center;
  align-items: center;
- /* width: 15%; */
- width: 200px;
+ width: 25%;
+ min-width: 200px;
 }
 .bodycard{
- margin-top: 10px;
  display: flex;
  flex-direction: column;
  justify-items: center;
  align-items: center;
+ margin-top: 15%;
+ gap: 20px;
 }
 .secondchild{
  display: flex;
  flex-direction: column;
  justify-items: center;
  align-items: center;
- gap: 1px;
+ gap: 10px;
 }
 
 .percentage-number {

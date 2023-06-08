@@ -15,6 +15,4 @@ function MyCard({percentage,number,title}) {
   </div>
   );
 }
-
-
 export default MyCard

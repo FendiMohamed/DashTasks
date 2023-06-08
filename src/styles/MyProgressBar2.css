@@ -1,11 +1,12 @@
 .progresss-card{
- width: 40% !important;
+ width: 50% !important;
  max-width: 600px !important;
  min-width: 270px !important;
  background-color: black;
  height: fit-content !important;
- max-height: 400px !important;
+ min-height: 300px !important;
  display: relative;
+ padding-bottom: 15%;
 }
 .head{
  color: gray;
@@ -33,7 +34,7 @@ font-size: 16px;
  flex-direction: column;
  justify-content: center;
  align-content: center;
- margin-top: -20px;
+ margin-top: -5%;
 }
 
 .buil{

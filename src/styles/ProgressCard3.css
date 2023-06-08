@@ -15,11 +15,12 @@
  flex-direction: column;
  justify-content: center;
  align-items: start;
- width: 30%;
+ width: 40%;
  max-height: 150px;
+ padding-bottom: 10%;
  background-color: white !important;
- min-width: 270px !important;
- padding-left: 10px;
+ min-width: 300px !important;
+ gap: 10%;
 }
 .built{
 display: flex;
@@ -27,7 +28,7 @@ width: 90%;
 justify-content: space-between;
 align-items: baseline;
 gap: 8px;
-margin-top: 20px;
+margin-top: 5%;
 }
 .built p{
  font-size: 28px;

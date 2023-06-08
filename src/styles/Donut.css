@@ -3,25 +3,30 @@
  flex-wrap: wrap;
  justify-content: flex-start;
  gap:10px;
+ height: 600px;
  background-color: #5E6162;
  align-content: flex-start;
 }
 .cartd{
- min-width: 200px;
+ min-width: 250px;
  margin: 5px;
- width: 13%;
- height: 200px;
+ width: 30%;
+ padding-bottom: 10%;
+ min-height: 210px;
  background-color: white;
  display: flex;
  flex-direction: column;
  align-items: center;
  justify-content: center;
+ padding: 10px;
 }
 .cartd p{
  font-size: 24px;
  font-weight: 400;
 }
-.donut{
- width: 60%;
- height: 60%;
-}
+/* .donut{
+ align-self: center;
+ justify-self: center;
+ width: 40%;
+ height: 100%;
+} */
